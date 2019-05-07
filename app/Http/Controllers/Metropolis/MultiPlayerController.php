@@ -64,7 +64,7 @@ class MultiPlayerController extends Controller
     }
     public function list(){
         $models = model3d::all();
-        return view('admin/metropolis/getAllmodel3d',compact('models'));
+        return view('admin/metropolis/getAllModel3d',compact('models'));
     }
     public function api_listModel(){
         $models = model3d::all();  
